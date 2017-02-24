@@ -1,0 +1,20 @@
+HTTrack3.48-22+htsswf+htsjava launched on Sat, 25 Feb 2017 00:06:57 at http://www.dequinox.in +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qiC1%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://www.dequinox.in -O1 "C:\My Web Sites\dequinox" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+00:09:09	Error: 	"Not Found" (404) at link www.dequinox.in/images/favicon.ico (from www.dequinox.in/)
+00:09:09	Error: 	"Not Found" (404) at link www.dequinox.in/images/apple-touch-icon.png (from www.dequinox.in/)
+00:09:09	Error: 	"Not Found" (404) at link www.dequinox.in/images/apple-touch-icon-72x72.png (from www.dequinox.in/)
+00:09:09	Error: 	"Not Found" (404) at link www.dequinox.in/images/apple-touch-icon-114x114.png (from www.dequinox.in/)
+00:10:29	Error: 	"Not Found" (404) at link www.dequinox.in/images/services-1.jpg (from www.dequinox.in/)
+00:10:29	Error: 	"Not Found" (404) at link www.dequinox.in/images/features-2.jpg (from www.dequinox.in/)
+00:15:13	Error: 	"Not Found" (404) at link www.dequinox.in/css/plagin-css/grabbing.png (from www.dequinox.in/css/plagin-css/owl.carousel.css)
+00:15:31	Error: 	"Not Found" (404) at link www.dequinox.in/images/survivor.jpg (from www.dequinox.in/survivor.html)
+00:18:38	Error: 	"Not Found" (404) at link www.dequinox.in/css1/plagin-css/grabbing.png (from www.dequinox.in/css1/plagin-css/owl.carousel.css)
+
+HTTrack Website Copier/3.48-22 mirror complete in 11 minutes 41 seconds : 151 links scanned, 141 files written (16477965 bytes overall), 133 files updated [13670755 bytes received at 19501 bytes/sec], 2731874 bytes transferred using HTTP compression in 52 files, ratio 31%, 3.9 requests per connection
+(9 errors, 0 warnings, 0 messages)
