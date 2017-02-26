@@ -9,3 +9,7 @@
 .loader>.large-header {
     background-image: #282828;
 }
+
+.main>.og-grid>li>a>img {
+    width: 250px;
+}
