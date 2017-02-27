@@ -172,15 +172,14 @@
 
 .og-details a {
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: -20px;
+    right: 20px;
     font-weight: 700;
     font-size: 16px;
     color: #F9F9F9;
     text-transform: uppercase;
     letter-spacing: 2px;
     padding: 10px 20px;
-    border: 3px solid #333;
     display: inline-block;
     margin: 10px 0 0;
     outline: none;
@@ -193,8 +192,8 @@
 }
 
 .og-details a:hover {
-    border-color: #999;
-    color: #999;
+    border-color: #ddd;
+    color: #ddd;
 }
 
 .og-loading {
