@@ -31,12 +31,14 @@ body {
 
 .parallax-event>div>p,
 .parallax-event>div>h2 {
-    font-weight: 800;
+    font-weight: 400;
     color: white;
 }
 
-.parallax-event>div>.text-uppercase {
-    color: #ddd;
+.parallax-event>div>p.text-uppercase {
+    color: #ccc;
+    font-weight: 500;
+    font-size: 1.45em;
 }
 
 
