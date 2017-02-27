@@ -25,3 +25,13 @@
 body {
     overflow: hidden;
 }
+
+.parallax-event>div>p,
+.parallax-event>div>h2 {
+    font-weight: 800;
+    color: white;
+}
+
+.parallax-event>div>.text-uppercase {
+    color: #ddd;
+}

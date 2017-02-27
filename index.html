@@ -41,6 +41,9 @@
     <link rel="stylesheet" type="text/css" href="css/event.css" />
     <script src="js/modernizr.custom.js"></script>
 
+    <!--srajan part of css-->
+    <link href="css/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+
 </head>
 <!-- End Head -->
 
@@ -51,84 +54,6 @@
     <!--========== HEADER ==========-->
     <header class="navbar-fixed-top s-header js__header-sticky js__header-overlay">
         <!-- Navbar -->
-        <div class="s-header__navbar">
-            <div class="s-header__container">
-                <div class="s-header__navbar-row">
-                    <div class="s-header__navbar-row-col">
-                        <!-- Logo 
-                            <div class="s-header__logo">
-                                <a href="index.html" class="s-header__logo-link">
-                                    <img class="s-header__logo-img s-header__logo-img-default" src="img/logo.png" alt="Megakit Logo">
-                                    <img class="s-header__logo-img s-header__logo-img-shrink" src="img/logo-dark.png" alt="Megakit Logo">
-                                </a>
-                            </div>
-                            End Logo -->
-                    </div>
-                    <div class="s-header__navbar-row-col">
-                        <!-- Trigger -->
-                        <a href="javascript:void(0);" class="s-header__trigger js__trigger">
-                            <span class="s-header__trigger-icon"></span>
-                            <svg x="0rem" y="0rem" width="3.125rem" height="3.125rem" viewbox="0 0 54 54">
-                                    <circle fill="transparent" stroke="#fff" stroke-width="1" cx="27" cy="27" r="25" stroke-dasharray="157 157" stroke-dashoffset="157"></circle>
-                                </svg>
-                        </a>
-                        <!-- End Trigger -->
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- End Navbar -->
-
-        <!-- Overlay -->
-        <div class="s-header-bg-overlay js__bg-overlay">
-            <!-- Nav -->
-            <nav class="s-header__nav js__scrollbar">
-                <div class="container-fluid">
-
-                    <!-- Menu List -->
-                    <ul class="list-unstyled s-header__nav-menu">
-                        <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="about.html">About</a></li>
-                        <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="team.html">Team</a></li>
-                        <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="services.html">Services</a></li>
-                        <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="#events">Events</a></li>
-                        <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="faq.html">FAQ</a></li>
-                        <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="contacts.html">Contacts</a></li>
-                    </ul>
-                    <!-- End Menu List -->
-                </div>
-            </nav>
-            <!-- End Nav -->
-
-            <!-- Action -->
-            <ul class="list-inline s-header__action s-header__action--lb">
-                <li class="s-header__action-item"><a class="s-header__action-link -is-active" href="#">En</a></li>
-                <li class="s-header__action-item"><a class="s-header__action-link" href="#">Fr</a></li>
-            </ul>
-            <!-- End Action -->
-
-            <!-- Action -->
-            <ul class="list-inline s-header__action s-header__action--rb">
-                <li class="s-header__action-item">
-                    <a class="s-header__action-link" href="#">
-                        <i class="g-padding-r-5--xs ti-facebook"></i>
-                        <span class="g-display-none--xs g-display-inline-block--sm">Facebook</span>
-                    </a>
-                </li>
-                <li class="s-header__action-item">
-                    <a class="s-header__action-link" href="#">
-                        <i class="g-padding-r-5--xs ti-twitter"></i>
-                        <span class="g-display-none--xs g-display-inline-block--sm">Twitter</span>
-                    </a>
-                </li>
-                <li class="s-header__action-item">
-                    <a class="s-header__action-link" href="#">
-                        <i class="g-padding-r-5--xs ti-instagram"></i>
-                        <span class="g-display-none--xs g-display-inline-block--sm">Instagram</span>
-                    </a>
-                </li>
-            </ul>
-            <!-- End Action -->
-        </div>
         <!-- End Overlay -->
     </header>
     <!--========== END HEADER ==========-->
@@ -169,7 +94,7 @@
             </div>
             <div class="grid__item animated bounce1 infinite">
                 <a class="link link--yaku" href="#">
-                    <span class="hours">00 </span>:<span class="minutes">00 </span>:<span class="seconds">00 </span> and <span class="days">7</span> days
+                    <span class="days">7</span> days <span class="hours">00 </span>:<span class="minutes">00 </span>:<span class="seconds">00 </span>
                 </a>
             </div>
         </h4>
@@ -194,239 +119,120 @@
     </div>
     <!-- End Features -->
 
-    <!-- Parallax -->
-    <div class="js__parallax-window" style="background: url(img/1920x1080/03.jpg) 50% 0 no-repeat fixed;">
-        <div class="container g-text-center--xs g-padding-y-80--xs g-padding-y-125--sm">
-            <div class="g-margin-b-80--xs">
-                <h2 class="g-font-size-40--xs g-font-size-50--sm g-font-size-60--md g-color--white">The Fastest Way To Develop</h2>
-            </div>
-            <a href="http://keenthemes.com/" class="text-uppercase s-btn s-btn--md s-btn--white-brd g-radius--50">Learn More</a>
-        </div>
-    </div>
-    <!-- End Parallax -->
+    <!--SRAJAN added about the fest-->
+    <!-- Masonry -->
 
-    <!-- Culture -->
-    <div class="g-promo-section" id="events">
-        <div class="container g-padding-y-80--xs g-padding-y-125--sm">
-            <div class="row">
-                <div class="col-md-4 g-margin-t-15--xs g-margin-b-60--xs g-margin-b-0--lg">
-                    <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2 g-margin-b-25--xs">Culture</p>
-                    <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".1s">
-                        <h2 class="g-font-size-40--xs g-font-size-50--sm g-font-size-60--md">Club Events</h2>
-                    </div>
-                </div>
-                <div class="col-lg-12 col-md-4 col-md-offset-0">
-                    <div class="container wow fadeInRight" data-wow-duration=".3" data-wow-delay=".3s">
-                        <div class="main">
-                            <ul id="og-grid" class="og-grid">
-                                <li>
-                                    <a href="ad#" data-largesrc="img/400x400/01.jpg" data-title="Robo war" data-description="
-                                    This is sample content and details about the club in brief, This is sample content and details about the club in brief, <br>
-                                    <strong>Schedule :</strong>
-                                    <p>
-                                        <ul>
-                                            <li>Round 1: 10:00 AM 11th March</li>
-                                            <li>Round 1: 10:00 AM 11th March</li>
-                                            <li>Round 1: 10:00 AM 11th March</li>
-                                        </ul>
-                                    </p><strong>Venue :</strong>
-                                    <p>
-                                        <ul>
-                                            <li>Cafeteria</li>
-                                        </ul>
-                                    </p>
-                                    <strong>Contacts :</strong>
-                                    <p>
-                                        <ul>
-                                            <li>Shubham Sir: 1236547890</li>
-                                            <li>Menkudle Sir: 1236547890</li>
-                                        </ul>
-                                    </p>">
-                                        <img src="img/400x400/01.jpg" alt="img01" />
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="ad#" data-largesrc="img/400x400/02.jpg" data-title="Robo war" data-description="
-                                    This is sample content and details about the club in brief, This is sample content and details about the club in brief, <br>
-                                    <strong>Schedule :</strong>
-                                    <p>
-                                        <ul>
-                                            <li>Round 1: 10:00 AM 11th March</li>
-                                            <li>Round 1: 10:00 AM 11th March</li>
-                                            <li>Round 1: 10:00 AM 11th March</li>
-                                        </ul>
-                                    </p><strong>Venue :</strong>
-                                    <p>
-                                        <ul>
-                                            <li>Cafeteria</li>
-                                        </ul>
-                                    </p>
-                                    <strong>Contacts :</strong>
-                                    <p>
-                                        <ul>
-                                            <li>Shubham Sir: 1236547890</li>
-                                            <li>Menkudle Sir: 1236547890</li>
-                                        </ul>
-                                    </p>"><img src="img/400x400/02.jpg" alt="img01" />
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="ad#" data-largesrc="img/400x400/03.jpg" data-title="Robo war" data-description="
-                                    This is sample content and details about the club in brief, This is sample content and details about the club in brief, <br>
-                                    <strong>Schedule :</strong>
-                                    <p>
-                                        <ul>
-                                            <li>Round 1: 10:00 AM 11th March</li>
-                                            <li>Round 1: 10:00 AM 11th March</li>
-                                            <li>Round 1: 10:00 AM 11th March</li>
-                                        </ul>
-                                    </p><strong>Venue :</strong>
-                                    <p>
-                                        <ul>
-                                            <li>Cafeteria</li>
-                                        </ul>
-                                    </p>
-                                    <strong>Contacts :</strong>
-                                    <p>
-                                        <ul>
-                                            <li>Shubham Sir: 1236547890</li>
-                                            <li>Menkudle Sir: 1236547890</li>
-                                        </ul>
-                                    </p>"><img src="img/400x400/03.jpg" alt="img01" />
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="ad#" data-largesrc="img/400x400/04.jpg" data-title="Robo war" data-description="
-                                    This is sample content and details about the club in brief, This is sample content and details about the club in brief, <br>
-                                    <strong>Schedule :</strong>
-                                    <p>
-                                        <ul>
-                                            <li>Round 1: 10:00 AM 11th March</li>
-                                            <li>Round 1: 10:00 AM 11th March</li>
-                                            <li>Round 1: 10:00 AM 11th March</li>
-                                        </ul>
-                                    </p><strong>Venue :</strong>
-                                    <p>
-                                        <ul>
-                                            <li>Cafeteria</li>
-                                        </ul>
-                                    </p>
-                                    <strong>Contacts :</strong>
-                                    <p>
-                                        <ul>
-                                            <li>Shubham Sir: 1236547890</li>
-                                            <li>Menkudle Sir: 1236547890</li>
-                                        </ul>
-                                    </p>"><img src="img/400x400/04.jpg" alt="img01" />
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="ad#" data-largesrc="img/400x400/05.jpg" data-title="Robo war" data-description="
-                                    This is sample content and details about the club in brief, This is sample content and details about the club in brief, <br>
-                                    <strong>Schedule :</strong>
-                                    <p>
-                                        <ul>
-                                            <li>Round 1: 10:00 AM 11th March</li>
-                                            <li>Round 1: 10:00 AM 11th March</li>
-                                            <li>Round 1: 10:00 AM 11th March</li>
-                                        </ul>
-                                    </p><strong>Venue :</strong>
-                                    <p>
-                                        <ul>
-                                            <li>Cafeteria</li>
-                                        </ul>
-                                    </p>
-                                    <strong>Contacts :</strong>
-                                    <p>
-                                        <ul>
-                                            <li>Shubham Sir: 1236547890</li>
-                                            <li>Menkudle Sir: 1236547890</li>
-                                        </ul>
-                                    </p>"><img src="img/400x400/05.jpg" alt="img01" />
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="ad#" data-largesrc="img/400x400/06.jpg" data-title="Robo war" data-description="
-                                    This is sample content and details about the club in brief, This is sample content and details about the club in brief, <br>
-                                    <strong>Schedule :</strong>
-                                    <p>
-                                        <ul>
-                                            <li>Round 1: 10:00 AM 11th March</li>
-                                            <li>Round 1: 10:00 AM 11th March</li>
-                                            <li>Round 1: 10:00 AM 11th March</li>
-                                        </ul>
-                                    </p><strong>Venue :</strong>
-                                    <p>
-                                        <ul>
-                                            <li>Cafeteria</li>
-                                        </ul>
-                                    </p>
-                                    <strong>Contacts :</strong>
-                                    <p>
-                                        <ul>
-                                            <li>Shubham Sir: 1236547890</li>
-                                            <li>Menkudle Sir: 1236547890</li>
-                                        </ul>
-                                    </p>"><img src="img/400x400/06.jpg" alt="img01" />
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="ad#" data-largesrc="img/400x400/01.jpg" data-title="Robo war" data-description="
-                                    This is sample content and details about the club in brief, This is sample content and details about the club in brief, <br>
-                                    <strong>Schedule :</strong>
-                                    <p>
-                                        <ul>
-                                            <li>Round 1: 10:00 AM 11th March</li>
-                                            <li>Round 1: 10:00 AM 11th March</li>
-                                            <li>Round 1: 10:00 AM 11th March</li>
-                                        </ul>
-                                    </p><strong>Venue :</strong>
-                                    <p>
-                                        <ul>
-                                            <li>Cafeteria</li>
-                                        </ul>
-                                    </p>
-                                    <strong>Contacts :</strong>
-                                    <p>
-                                        <ul>
-                                            <li>Shubham Sir: 1236547890</li>
-                                            <li>Menkudle Sir: 1236547890</li>
-                                        </ul>
-                                    </p>"><img src="img/400x400/01.jpg" alt="img01" />
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="ad#" data-largesrc="img/400x400/05.jpg" data-title="Robo war" data-description="
-                                    This is sample content and details about the club in brief, This is sample content and details about the club in brief, <br>
-                                    <strong>Schedule :</strong>
-                                    <p>
-                                        <ul>
-                                            <li>Round 1: 10:00 AM 11th March</li>
-                                            <li>Round 1: 10:00 AM 11th March</li>
-                                            <li>Round 1: 10:00 AM 11th March</li>
-                                        </ul>
-                                    </p><strong>Venue :</strong>
-                                    <p>
-                                        <ul>
-                                            <li>Cafeteria</li>
-                                        </ul>
-                                    </p>
-                                    <strong>Contacts :</strong>
-                                    <p>
-                                        <ul>
-                                            <li>Shubham Sir: 1236547890</li>
-                                            <li>Menkudle Sir: 1236547890</li>
-                                        </ul>
-                                    </p>"><img src="img/400x400/05.jpg" alt="img01" />
-                                    </a>
-                                </li>
-                            </ul>
+    <!-- End Masonry -->
+    <!--SRAJAN about the fest ends-->
+
+    <!--SRAJAN added 3section block start-->
+    <div class="g-bg-color--primary-ltr">
+        <div class="container g-padding-y-80--xs g-padding-y-125--sm" style="padding-top:3.8125rem;padding-bottom:3.8125rem;">
+
+            <ul class="list-inline row g-margin-b-100--xs" style="margin-bottom:10px;">
+                <!-- Process -->
+                <li class="col-sm-4 col-xs-6 g-full-width--xs s-process-v1 g-margin-b-60--xs g-margin-b-0--md">
+                    <div class="center-block g-text-center--xs">
+                        <div class="g-margin-b-30--xs">
+                            <span class="wow fadeInUp animated g-display-inline-block--xs g-width-100--xs g-height-100--xs g-font-size-38--xs g-color--primary g-bg-color--white g-box-shadow__dark-lightest-v4 g-padding-x-20--xs g-padding-y-20--xs g-radius--circle"><i class="fa fa-microphone" aria-hidden="true"></i></span>
+                        </div>
+                        <div class="g-padding-x-20--xs">
+                            <h3 class="g-font-size-18--xs g-color--white">Concerts</h3>
+                            <p class="g-color--white-opacity">Embarks upon it presence to give a giganticclosure to this annual Saga. Comprising of power-pack performances by reowned Band followed by Bollywood Playback Singer, settig the aura ito musical vibes.</p>
                         </div>
                     </div>
+                </li>
+                <!-- End Process -->
+
+                <!-- Process -->
+                <li class="col-sm-4 col-xs-6 g-full-width--xs s-process-v1 g-margin-b-60--xs g-margin-b-0--md">
+                    <div class="center-block g-text-center--xs">
+                        <div class="g-margin-b-30--xs">
+                            <span class="wow fadeInUp animated g-display-inline-block--xs g-width-100--xs g-height-100--xs g-font-size-38--xs g-color--primary g-bg-color--white g-box-shadow__dark-lightest-v4 g-padding-x-20--xs g-padding-y-20--xs g-radius--circle"><i class="fa fa-trophy" aria-hidden="true"></i></span>
+                        </div>
+                        <div class="g-padding-x-20--xs">
+                            <h3 class="g-font-size-18--xs g-color--white">Competitions</h3>
+                            <p class="g-color--white-opacity">SGSITS witnessses number of dynamic and intriguting events, where internal as well as external participants fight for coveted title and cash prizes.</p>
+                        </div>
+                    </div>
+                </li>
+                <!-- End Process -->
+
+                <!-- Process -->
+                <li class="col-sm-4 col-xs-6 g-full-width--xs s-process-v1 g-margin-b-60--xs g-margin-b-0--sm">
+                    <div class="center-block g-text-center--xs">
+                        <div class="g-margin-b-30--xs">
+                            <span class="wow fadeInUp animated g-display-inline-block--xs g-width-100--xs g-height-100--xs g-font-size-38--xs g-color--primary g-bg-color--white g-box-shadow__dark-lightest-v4 g-padding-x-20--xs g-padding-y-20--xs g-radius--circle"><i class="fa fa-calendar" aria-hidden="true"></i></span>
+                        </div>
+                        <div class="g-padding-x-20--xs">
+                            <h3 class="g-font-size-18--xs g-color--white">Events</h3>
+                            <p class="g-color--white-opacity">Our thrilling and exciting day events in every case will left you spellbound and insatiable.Events which will make your 3 day ecstatic and memorable. Moreover you will have chance to win goodies,gift hampers and many more exciting
+                                prizes.
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <!-- End Process -->
+
+
+            </ul>
+
+
+        </div>
+    </div>
+    <!--SRAJAN 3SECTION BLOCK ENDS-->
+
+    <!--SRAJAN 3 BLOCKS START-->
+    <!-- Mockup -->
+    <div id="js__scroll-to-section" class="container g-padding-y-80--xs g-padding-y-125--xsm">
+        <div class="wow fadeInLeft row g-hor-centered-row--md g-row-col--5 g-margin-b-80--xs g-margin-b-100--md">
+            <div class="col-sm-5 g-hor-centered-row__col">
+                <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2 g-margin-b-25--xs">Write something better here</p>
+                <h2 class="g-font-size-32--xs g-font-size-36--sm g-margin-b-25--xs">The Amazing Event</h2>
+                <p class="g-font-size-18--sm">We aim high at being focused on building relationships with our clients and community. Using our creative gifts drives this foundation.</p>
+            </div>
+            <div class="col-sm-1"></div>
+            <div class="col-sm-5 g-hor-centered-row__col">
+                <img class="img-responsive" src="img/mockups/iphone-03.png" alt="Mockup Image">
+            </div>
+        </div>
+
+        <!-- Parallax -->
+        <div class="js__parallax-window" style="background: url(img/1920x1080/05.jpg) 50% 0 no-repeat fixed;">
+            <div class="parallax-event wow fadeInRight row g-hor-centered-row--md g-row-col--5 g-margin-b-80--xs g-margin-b-100--md">
+                <div class="col-sm-5 col-sm-push-7 g-hor-centered-row__col">
+                    <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2 g-margin-b-25--xs">another catchy headline</p>
+                    <h2 class="g-font-size-32--xs g-font-size-36--sm g-margin-b-25--xs">Star Show <br>The Eve</h2>
+                    <p class="g-font-size-18--sm">Working together on the daily requires each individual to let the greater good of the team’s work surface above their own ego.</p>
+                </div>
+                <div class="col-sm-1"></div>
+                <div class="col-sm-5 col-sm-pull-7 g-hor-centered-row__col g-text-left--xs g-text-right--md">
+                    <img class="img-responsive" src="img/970x970/02.jpg" alt="Mockup Image">
                 </div>
             </div>
         </div>
+        <!-- End Parallax -->
+
+
+
+        <div class="wow fadeInLeft row g-hor-centered-row--md g-row-col--5 g-margin-b-80--xs g-margin-b-100--md">
+            <div class="col-sm-5 g-hor-centered-row__col">
+                <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2 g-margin-b-25--xs">Here too</p>
+                <h2 class="g-font-size-32--xs g-font-size-36--sm g-margin-b-25--xs">The Amazing Event</h2>
+                <p class="g-font-size-18--sm">We aim high at being focused on building relationships with our clients and community. Using our creative gifts drives this foundation.</p>
+            </div>
+            <div class="col-sm-1"></div>
+            <div class="col-sm-5 g-hor-centered-row__col">
+                <img class="img-responsive" src="img/mockups/iphone-03.png" alt="Mockup Image">
+            </div>
+        </div>
     </div>
+    <!-- End Mockup -->
+
+    <!--SRAJAN 3 BLOCKS ENDS-->
+    <!--========== PAGE CONTENT ==========-->
+
+    <!-- Culture -->
     <!-- End Culture -->
     <!--this is goin to be event section of us-->
     <!--this is event section ending-->
@@ -451,178 +257,7 @@
     </div>
     <!-- End Subscribe -->
 
-    <!-- Portfolio Filter -->
-    <div class="container g-padding-y-80--xs">
-        <div class="g-text-center--xs g-margin-b-40--xs">
-            <h2 class="g-font-size-32--xs g-font-size-36--md">Projects</h2>
-        </div>
-        <div class="s-portfolio">
-            <div id="js__filters-portfolio-gallery" class="s-portfolio__filter-v1 cbp-l-filters-text cbp-l-filters-center">
-                <div data-filter="*" class="s-portfolio__filter-v1-item cbp-filter-item cbp-filter-item-active">Show All</div>
-                <div data-filter=".graphic" class="s-portfolio__filter-v1-item cbp-filter-item">Graphic</div>
-                <div data-filter=".logos" class="s-portfolio__filter-v1-item cbp-filter-item">Logo</div>
-                <div data-filter=".motion" class="s-portfolio__filter-v1-item cbp-filter-item">Motion</div>
-            </div>
-        </div>
-    </div>
-    <!-- End Portfolio Filter -->
 
-    <!-- Portfolio Gallery -->
-    <div class="container g-margin-b-100--xs">
-        <div id="js__grid-portfolio-gallery" class="cbp">
-            <!-- Item -->
-            <div class="s-portfolio__item cbp-item logos motion">
-                <div class="s-portfolio__img-effect">
-                    <img src="img/970x647/05.jpg" alt="Portfolio Image">
-                </div>
-                <div class="s-portfolio__caption-hover--cc">
-                    <div class="g-margin-b-25--xs">
-                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
-                        <p class="g-color--white-opacity">by KeenThemes Inc.</p>
-                    </div>
-                    <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
-                        <li>
-                            <a href="img/970x647/05.jpg" class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle" data-title="Portfolio Item <br/> by KeenThemes Inc.">
-                                <i class="ti-fullscreen"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
-                                <i class="ti-link"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <!-- Item -->
-            <div class="s-portfolio__item cbp-item graphic">
-                <div class="s-portfolio__img-effect">
-                    <img src="img/970x647/06.jpg" alt="Portfolio Image">
-                </div>
-                <div class="s-portfolio__caption-hover--cc">
-                    <div class="g-margin-b-25--xs">
-                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
-                        <p class="g-color--white-opacity">by KeenThemes Inc.</p>
-                    </div>
-                    <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
-                        <li>
-                            <a href="img/970x647/06.jpg" class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle" data-title="Portfolio Item <br/> by KeenThemes Inc.">
-                                <i class="ti-fullscreen"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
-                                <i class="ti-link"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <!-- Item -->
-            <div class="s-portfolio__item cbp-item logos">
-                <div class="s-portfolio__img-effect">
-                    <img src="img/970x647/07.jpg" alt="Portfolio Image">
-                </div>
-                <div class="s-portfolio__caption-hover--cc">
-                    <div class="g-margin-b-25--xs">
-                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
-                        <p class="g-color--white-opacity">by KeenThemes Inc.</p>
-                    </div>
-                    <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
-                        <li>
-                            <a href="img/970x647/07.jpg" class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle" data-title="Portfolio Item <br/> by KeenThemes Inc.">
-                                <i class="ti-fullscreen"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
-                                <i class="ti-link"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <!-- Item -->
-            <div class="s-portfolio__item cbp-item motion graphic">
-                <div class="s-portfolio__img-effect">
-                    <img src="img/970x647/08.jpg" alt="Portfolio Image">
-                </div>
-                <div class="s-portfolio__caption-hover--cc">
-                    <div class="g-margin-b-25--xs">
-                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
-                        <p class="g-color--white-opacity">by KeenThemes Inc.</p>
-                    </div>
-                    <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
-                        <li>
-                            <a href="img/970x647/08.jpg" class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle" data-title="Portfolio Item <br/> by KeenThemes Inc.">
-                                <i class="ti-fullscreen"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
-                                <i class="ti-link"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <!-- Item -->
-            <div class="s-portfolio__item cbp-item logos graphic">
-                <div class="s-portfolio__img-effect">
-                    <img src="img/970x647/09.jpg" alt="Portfolio Image">
-                </div>
-                <div class="s-portfolio__caption-hover--cc">
-                    <div class="g-margin-b-25--xs">
-                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
-                        <p class="g-color--white-opacity">by KeenThemes Inc.</p>
-                    </div>
-                    <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
-                        <li>
-                            <a href="img/970x647/09.jpg" class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle" data-title="Portfolio Item <br/> by KeenThemes Inc.">
-                                <i class="ti-fullscreen"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
-                                <i class="ti-link"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <!-- Item -->
-            <div class="s-portfolio__item cbp-item motion graphic">
-                <div class="s-portfolio__img-effect">
-                    <img src="img/970x647/04.jpg" alt="Portfolio Image">
-                </div>
-                <div class="s-portfolio__caption-hover--cc">
-                    <div class="g-margin-b-25--xs">
-                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
-                        <p class="g-color--white-opacity">by KeenThemes Inc.</p>
-                    </div>
-                    <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
-                        <li>
-                            <a href="img/970x647/04.jpg" class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle" data-title="Portfolio Item <br/> by KeenThemes Inc.">
-                                <i class="ti-fullscreen"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
-                                <i class="ti-link"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <!-- End Item -->
-        </div>
-        <!-- End Portfolio Gallery -->
-    </div>
-    <!-- End Portfolio -->
-
-    <!-- Testimonials -->
-
-    <!-- End Testimonials -->
 
     <!-- Clients -->
     <div class="g-bg-color--sky-light">
@@ -662,52 +297,6 @@
     </div>
     <!-- End Clients -->
 
-    <!-- News -->
-    <div class="container g-padding-y-80--xs g-padding-y-125--sm">
-        <div class="g-text-center--xs g-margin-b-80--xs">
-            <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2 g-margin-b-25--xs">Blog</p>
-            <h2 class="g-font-size-32--xs g-font-size-36--md">Latest News</h2>
-        </div>
-        <div class="row">
-            <div class="col-sm-4 g-margin-b-30--xs g-margin-b-0--md">
-                <!-- News -->
-                <article>
-                    <img class="img-responsive" src="img/970x970/01.jpg" alt="Image">
-                    <div class="g-bg-color--white g-box-shadow__dark-lightest-v2 g-text-center--xs g-padding-x-40--xs g-padding-y-40--xs">
-                        <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2">News</p>
-                        <h3 class="g-font-size-22--xs g-letter-spacing--1"><a href="http://keenthemes.com/">Create Something Great.</a></h3>
-                        <p>The time has come to bring those ideas and plans to life.</p>
-                    </div>
-                </article>
-                <!-- End News -->
-            </div>
-            <div class="col-sm-4 g-margin-b-30--xs g-margin-b-0--md">
-                <!-- News -->
-                <article>
-                    <img class="img-responsive" src="img/970x970/02.jpg" alt="Image">
-                    <div class="g-bg-color--white g-box-shadow__dark-lightest-v2 g-text-center--xs g-padding-x-40--xs g-padding-y-40--xs">
-                        <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2">News</p>
-                        <h3 class="g-font-size-22--xs g-letter-spacing--1"><a href="http://keenthemes.com/">Jacks of All. Experts in All.</a></h3>
-                        <p>The time has come to bring those ideas and plans to life.</p>
-                    </div>
-                </article>
-                <!-- End News -->
-            </div>
-            <div class="col-sm-4">
-                <!-- News -->
-                <article>
-                    <img class="img-responsive" src="img/970x970/03.jpg" alt="Image">
-                    <div class="g-bg-color--white g-box-shadow__dark-lightest-v2 g-text-center--xs g-padding-x-40--xs g-padding-y-40--xs">
-                        <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2">News</p>
-                        <h3 class="g-font-size-22--xs g-letter-spacing--1"><a href="http://keenthemes.com/">Finding your Perfect Place.</a></h3>
-                        <p>The time has come to bring those ideas and plans to life.</p>
-                    </div>
-                </article>
-                <!-- End News -->
-            </div>
-        </div>
-    </div>
-    <!-- End News -->
 
     <!-- Counter -->
     <div class="js__parallax-window" style="background: url(img/1920x1080/06.jpg) 50% 0 no-repeat fixed;">
