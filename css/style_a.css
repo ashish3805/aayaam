@@ -8,7 +8,10 @@
 }
 
 .loader>.large-header {
-    background-image: #282828;
+    background: #242526;
+    -webkit-transition: background-color 0.4s cubic-bezier(0.075, 0.82, 0.165, 1) 0.1s;
+    -moz-transition: background-color 0.4s cubic-bezier(0.075, 0.82, 0.165, 1) 0.1s;
+    transition: background-color 0.4s cubic-bezier(0.075, 0.82, 0.165, 1) 0.1s;
 }
 
 .main>.og-grid>li>a>img {
@@ -35,3 +38,87 @@ body {
 .parallax-event>div>.text-uppercase {
     color: #ddd;
 }
+
+
+/*pre-loader css start*/
+
+.sk-wave {
+    margin: 40px auto;
+    width: 80px;
+    height: 60px;
+    text-align: center;
+    font-size: 10px;
+}
+
+.sk-wave .sk-rect {
+    background-color: #FEFEFE;
+    height: 100%;
+    width: 6px;
+    display: inline-block;
+    -webkit-animation: sk-waveStretchDelay 1.2s infinite ease-in-out;
+    animation: sk-waveStretchDelay 1.2s infinite ease-in-out;
+}
+
+.sk-wave .sk-rect1 {
+    -webkit-animation-delay: -1.2s;
+    animation-delay: -1.2s;
+}
+
+.sk-wave .sk-rect2 {
+    -webkit-animation-delay: -1.1s;
+    animation-delay: -1.1s;
+}
+
+.sk-wave .sk-rect3 {
+    -webkit-animation-delay: -1s;
+    animation-delay: -1s;
+}
+
+.sk-wave .sk-rect4 {
+    -webkit-animation-delay: -0.9s;
+    animation-delay: -0.9s;
+}
+
+.sk-wave .sk-rect5 {
+    -webkit-animation-delay: -0.8s;
+    animation-delay: -0.8s;
+}
+
+.sk-wave .sk-rect6 {
+    -webkit-animation-delay: -0.7s;
+    animation-delay: -0.7s;
+}
+
+.sk-wave .sk-rect7 {
+    -webkit-animation-delay: -0.6s;
+    animation-delay: -0.6s;
+}
+
+@-webkit-keyframes sk-waveStretchDelay {
+    0%,
+    40%,
+    100% {
+        -webkit-transform: scaleY(0.4);
+        transform: scaleY(0.4);
+    }
+    20% {
+        -webkit-transform: scaleY(1);
+        transform: scaleY(1);
+    }
+}
+
+@keyframes sk-waveStretchDelay {
+    0%,
+    40%,
+    100% {
+        -webkit-transform: scaleY(0.4);
+        transform: scaleY(0.4);
+    }
+    20% {
+        -webkit-transform: scaleY(1);
+        transform: scaleY(1);
+    }
+}
+
+
+/*preloader css end*/
