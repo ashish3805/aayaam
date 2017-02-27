@@ -192,7 +192,7 @@ jQuery(document).ready(function($){
     center: new google.maps.LatLng(latitude, longitude),
     zoom: map_zoom,
     panControl: false,
-    zoomControl: false,
+    zoomControl: true,
     mapTypeControl: false,
     streetViewControl: false,
     mapTypeId: google.maps.MapTypeId.ROADMAP,
