@@ -73,4 +73,33 @@ jQuery(document).ready(function($){
 		/* retrieve the content value of .cd-main::before to check the actua mq */
 		return window.getComputedStyle(document.querySelector('.cd-main'), '::before').getPropertyValue('content').replace(/"/g, "").replace(/'/g, "");
 	}
+    
+    var list=document.getElementById("gallery-list").getElementsByTagName("li");
+  
+    var palette1=["#EE8434","#23395B","#496DDB","#DB3069"];
+    var palette2=["#03a9f4","#e91e63","#ff9800","#4caf50"];
+    var previous=-1;
+    determine=1;
+    for(i=0;i<list.length;++i){
+         var colors;
+         if(i%4==0)
+             determine=(determine==1)?2:1;
+         //console.log("determine is "+determine);
+         random=Math.floor(Math.random()*4);
+         while(previous==random)
+            random=Math.floor(Math.random()*4);
+         previous=random;
+        
+         if(determine==1){
+             list[i].style.background=palette1[random];
+             
+         }
+         else{
+            list[i].style.background=palette2[random];
+            
+         }
+         //console.log(i+"---"+list[i].style.background+" -- "+random);
+    }
+       
+    
 });
