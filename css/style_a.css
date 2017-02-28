@@ -41,6 +41,15 @@ body {
     font-size: 1.45em;
 }
 
+#js__scroll-to-section.container {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#js__scroll-to-section.container>div {
+    padding: 15px;
+}
+
 
 /*pre-loader css start*/
 
