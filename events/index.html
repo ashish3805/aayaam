@@ -1,532 +1,590 @@
 <!doctype html>
 <html lang="en" class="no-js">
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link href='http://fonts.googleapis.com/css?family=Vollkorn|Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Vollkorn|Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="event-details/min/plugin-min.css" type="text/css" rel="stylesheet">
+    <link href="event-details/min/custom-min.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <!-- CSS reset -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Resource style -->
+    <script src="js/modernizr.js"></script>
+    <!-- Modernizr -->
 
-	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
-	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
-	<script src="js/modernizr.js"></script> <!-- Modernizr -->
-  	
-	<title>Events @AAYAAM</title>
+    <style>
+        .banner {
+            color: deepskyblue;
+            font-weight: 500;
+            height: 350PX;
+            position: relative;
+        }
+        
+        .banner>h1 {
+            font-family: Open Sans;
+            position: absolute;
+            text-align: center;
+            padding-top: 4em;
+            font-size: 2.5em;
+            width: 100%;
+            height: 350px;
+            bottom: 20px;
+            z-index: 10;
+            color: #DDD;
+        }
+        
+        .banner>img {
+            position: absolute;
+            width: 100%;
+            height: 350px;
+            top: 0px;
+            z-index: 1;
+        }
+        
+        .banner>.filter {
+            background: rgba(10, 0, 20, 0.70);
+            position: absolute;
+            top: 0px;
+            width: 100%;
+            height: 350px;
+            z-index: 1;
+        }
+    </style>
+    <title>Events :AAYAAM 2017</title>
 </head>
+
 <body>
-      
-	<main class="cd-main">
-       			
+    <main class="cd-main">
         <header>
-          <h1>Aayaam 2017 Events</h1>
+            <h1>Aayaam 2017 Events</h1>
             <div class="cd-nugget-info">
-				<a href="https://aayaam.sgsits.ac.in">
-					<span>
+                <a href="https://aayaam.sgsits.ac.in">
+                    <span>
 						<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
 							<style type="text/css">
 								.cd-nugget-info-arrow{fill:#383838;}
 							</style>
 							<polygon class="cd-nugget-info-arrow" points="15,7 4.4,7 8.4,3 7,1.6 0.6,8 0.6,8 0.6,8 7,14.4 8.4,13 4.4,9 15,9 "/>
 						</svg>
-					</span>
-					BACK
-				</a>
-			</div> <!-- cd-nugget-info -->
-		</header>
-        
-		<ul class="cd-gallery" id="gallery-list">
-            <li class="cd-item">
-				<a class="dark-text" href="item-3.html">
-					<div>
-						<h2>FLOATCRETE</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur.</p>
-						<b>View More</b>
-					</div>
-				</a>
-			</li>
-           
-			<li class="cd-item">
-				<a href="item-1.html">
-					<div>
-						<h2>Rubaroo 2.0</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur.</p>
-						<b>View More</b>
-					</div>
-				</a>
-			</li>
+					</span> BACK
+                </a>
+            </div>
+            <!-- cd-nugget-info -->
+        </header>
 
-			<li class="cd-item">
-				<a href="item-2.html">
-					<div>
-						<h2>Swaranjali</h2>
-						<p>Intra college singing competition</p>
-						<b>View More</b>
-					</div>
-				</a>
-			</li>
+        <ul class="cd-gallery" id="gallery-list">
+            <li class="cd-item">
+                <a class="dark-text" href="item-1.html">
+                    <div>
+                        <h2>FLOATCRETE</h2>
+                        <p>Tech|Fun|Cult|Comp</p>
+                        <b>View More</b>
+                    </div>
+                </a>
+            </li>
 
-			<li class="cd-item">
-				<a class="dark-text" href="item-3.html">
-					<div>
-						<h2>Dwand</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur.</p>
-						<b>View More</b>
-					</div>
-				</a>
-			</li>
+            <li class="cd-item">
+                <a href="item-1.html">
+                    <div>
+                        <h2>Rubaroo 2.0</h2>
+                        <p>Tech|Fun|Cult|Comp</p>
+                        <b>View More</b>
+                    </div>
+                </a>
+            </li>
 
-			<li class="cd-item">
-				<a href="item-4.html">
-					<div>
-						<h2>Halla Bol</h2>
-						<p>Nukkad natak|Flash Mob|Stage Play</p>
-						<b>View More</b>
-					</div>
-				</a>
-			</li>
-            
-             <li class="cd-item">
-				<a class="dark-text" href="item-3.html">
-					<div>
-						<h2>Retro Fitting</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur.</p>
-						<b>View More</b>
-					</div>
-				</a>
-			</li>
             <li class="cd-item">
-				<a class="dark-text" href="item-3.html">
-					<div>
-						<h2>Smart Ideas Presentation</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur.</p>
-						<b>View More</b>
-					</div>
-				</a>
-			</li>
-			<li class="cd-item">
-				<a class="dark-text" href="item-3.html">
-					<div>
-						<h2>Circuit Hunt</h2>
-						<p>Circuit Jigsaw Puzzels</p>
-						<b>View More</b>
-					</div>
-				</a>
-			</li>
-            
-			<li class="cd-item">
-				<a class="dark-text" href="item-3.html">
-					<div>
-						<h2>Scam Corporate Commotion</h2>
-						<p>Stock Marketing and trading</p>
-						<b>View More</b>
-					</div>
-				</a>
-			</li>
-            
-			<li class="cd-item">
-				<a class="dark-text" href="item-3.html">
-					<div>
-						<h2>Tri-tech Tonic</h2>
-						<p>Mind your Code!</p>
-						<b>View More</b>
-					</div>
-				</a>
-			</li>
-            
-			<li class="cd-item">
-				<a class="dark-text" href="item-3.html">
-					<div>
-						<h2>Saarthi</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur.</p>
-						<b>View More</b>
-					</div>
-				</a>
-			</li>
-            
-            <li class="cd-item">
-				<a class="dark-text" href="item-3.html">
-					<div>
-						<h2>Enigma</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur.</p>
-						<b>View More</b>
-					</div>
-				</a>
-			</li>
-            <li class="cd-item">
-				<a class="dark-text" href="item-3.html">
-					<div>
-						<h2>Formula,ATV,Aircrafts Demo</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur.</p>
-						<b>View More</b>
-					</div>
-				</a>
-			</li>
-            <li class="cd-item">
-				<a class="dark-text" href="item-3.html">
-					<div>
-						<h2>CAD War</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur.</p>
-						<b>View More</b>
-					</div>
-				</a>
-			</li>
-            <li class="cd-item">
-				<a class="dark-text" href="item-3.html">
-					<div>
-						<h2>Archery|Hurdles|Sack Race</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur.</p>
-						<b>View More</b>
-					</div>
-				</a>
-			</li>
-            <li class="cd-item">
-				<a class="dark-text" href="item-3.html">
-					<div>
-						<h2>Volt-Edge</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur.</p>
-						<b>View More</b>
-					</div>
-				</a>
-			</li>
-            <li class="cd-item">
-				<a class="dark-text" href="item-3.html">
-					<div>
-						<h2>Coding Shoot</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur.</p>
-						<b>View More</b>
-					</div>
-				</a>
-			</li>
-            <li class="cd-item">
-				<a class="dark-text" href="item-3.html">
-					<div>
-						<h2>Beyond the walls</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur.</p>
-						<b>View More</b>
-					</div>
-				</a>
-			</li>
-            <li class="cd-item">
-				<a class="dark-text" href="item-3.html">
-					<div>
-						<h2>Code Venture</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur.</p>
-						<b>View More</b>
-					</div>
-				</a>
-			</li>
-            <li class="cd-item">
-				<a class="dark-text" href="item-3.html">
-					<div>
-						<h2>GS Ki Vines</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur.</p>
-						<b>View More</b>
-					</div>
-				</a>
-			</li>
-            <li class="cd-item">
-				<a class="dark-text" href="item-3.html">
-					<div>
-						<h2>Junkyard</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur.</p>
-						<b>View More</b>
-					</div>
-				</a>
-			</li>
-            <li class="cd-item">
-				<a class="dark-text" href="item-3.html">
-					<div>
-						<h2>Fox Hunter</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur.</p>
-						<b>View More</b>
-					</div>
-				</a>
-			</li>
-            <li class="cd-item">
-				<a class="dark-text" href="item-3.html">
-					<div>
-						<h2>Beat My Car</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur.</p>
-						<b>View More</b>
-					</div>
-				</a>
-			</li>
-            <li class="cd-item">
-				<a class="dark-text" href="item-3.html">
-					<div>
-						<h2>Laser Tag</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur.</p>
-						<b>View More</b>
-					</div>
-				</a>
-			</li>
-            <li class="cd-item">
-				<a class="dark-text" href="item-3.html">
-					<div>
-						<h2>LAN Gaming NFS</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur.</p>
-						<b>View More</b>
-					</div>
-				</a>
-			</li>
-            
-             <li class="cd-item">
-				<a class="dark-text" href="item-3.html">
-					<div>
-						<h2>Maniqueue</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur.</p>
-						<b>View More</b>
-					</div>
-				</a>
-			</li> 
-            <li class="cd-item">
-				<a class="dark-text" href="item-3.html">
-					<div>
-						<h2>Mech Nova</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur.</p>
-						<b>View More</b>
-					</div>
-				</a>
-			</li> 
-            <li class="cd-item">
-				<a class="dark-text" href="item-3.html">
-					<div>
-						<h2>Quiz Warfare</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur.</p>
-						<b>View More</b>
-					</div>
-				</a>
-			</li>
-            <li class="cd-item">
-				<a class="dark-text" href="item-3.html">
-					<div>
-						<h2>Fun Games</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur.</p>
-						<b>View More</b>
-					</div>
-				</a>
-			</li>
-            <li class="cd-item">
-				<a class="dark-text" href="item-3.html">
-					<div>
-						<h2>Line Follower</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur.</p>
-						<b>View More</b>
-					</div>
-				</a>
-			</li>
-            <li class="cd-item">
-				<a class="dark-text" href="item-3.html">
-					<div>
-						<h2>Robo Race</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur.</p>
-						<b>View More</b>
-					</div>
-				</a>
-			</li>
-            <li class="cd-item">
-				<a class="dark-text" href="item-3.html">
-					<div>
-						<h2>Grabber</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur.</p>
-						<b>View More</b>
-					</div>
-				</a>
-			</li>
-            <li class="cd-item">
-				<a class="dark-text" href="item-3.html">
-					<div>
-						<h2>SRC Exhibition</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur.</p>
-						<b>View More</b>
-					</div>
-				</a>
-			</li>
-            <li class="cd-item">
-				<a class="dark-text" href="item-3.html">
-					<div>
-						<h2>Circuitrix</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur.</p>
-						<b>View More</b>
-					</div>
-				</a>
-			</li>
-            <li class="cd-item">
-				<a class="dark-text" href="item-3.html">
-					<div>
-						<h2>Lakshya</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur.</p>
-						<b>View More</b>
-					</div>
-				</a>
-			</li>
-            <li class="cd-item">
-				<a class="dark-text" href="item-3.html">
-					<div>
-						<h2>RanBhoomi</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur.</p>
-						<b>View More</b>
-					</div>
-				</a>
-			</li>
-            <li class="cd-item">
-				<a class="dark-text" href="item-3.html">
-					<div>
-						<h2>Shaam-e-Watan</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur.</p>
-						<b>View More</b>
-					</div>
-				</a>
-			</li>
-            
-            <li class="cd-item">
-				<a class="dark-text" href="item-3.html">
-					<div>
-						<h2>Drama|Flash Mob</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur.</p>
-						<b>View More</b>
-					</div>
-				</a>
-			</li>
-            <li class="cd-item">
-				<a class="dark-text" href="item-3.html">
-					<div>
-						<h2>MR. & MS. AAYAAM </h2>
-						<p>Lorem ipsum dolor sit amet, consectetur.</p>
-						<b>View More</b>
-					</div>
-				</a>
-			</li>
-             <li class="cd-item">
-				<a class="dark-text" href="item-3.html">
-					<div>
-						<h2>SNAPSTER:SHOOT THE CAMPUS </h2>
-						<p>Lorem ipsum dolor sit amet, consectetur.</p>
-						<b>View More</b>
-					</div>
-				</a>
-			</li>
-             <li class="cd-item">
-				<a class="dark-text" href="item-3.html">
-					<div>
-						<h2>Art-A-Holic</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur.</p>
-						<b>View More</b>
-					</div>
-				</a>
-			</li>
-             <li class="cd-item">
-				<a class="dark-text" href="item-3.html">
-					<div>
-						<h2>Do the Doodle</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur.</p>
-						<b>View More</b>
-					</div>
-				</a>
-			</li>
-             <li class="cd-item">
-				<a class="dark-text" href="item-3.html">
-					<div>
-						<h2>Display of research works</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur.</p>
-						<b>View More</b>
-					</div>
-				</a>
-			</li>
-             <li class="cd-item">
-				<a class="dark-text" href="item-3.html">
-					<div>
-						<h2>Models of product concept</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur.</p>
-						<b>View More</b>
-					</div>
-				</a>
-			</li>
-             <li class="cd-item">
-				<a class="dark-text" href="item-3.html">
-					<div>
-						<h2>BID Mastro Management Game</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur.</p>
-						<b>View More</b>
-					</div>
-				</a>
-			</li>
-             
-             <li class="cd-item">
-				<a class="dark-text" href="item-3.html">
-					<div>
-						<h2>CNC Programming Competition</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur.</p>
-						<b>View More</b>
-					</div>
-				</a>
-			</li>
-            
-            <li class="cd-item">
-				<a class="dark-text" href="item-3.html">
-					<div>
-						<h2>Product Design G.K. Competition</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur.</p>
-						<b>View More</b>
-					</div>
-				</a>
-			</li>
-            
-            <li class="cd-item">
-				<a class="dark-text" href="item-3.html">
-					<div>
-						<h2>Drug & Disease Counselling</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur.</p>
-						<b>View More</b>
-					</div>
-				</a>
-			</li>
-            
-            <li class="cd-item">
-				<a class="dark-text" href="item-3.html">
-					<div>
-						<h2>Business Plan Competition</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur.</p>
-						<b>View More</b>
-					</div>
-				</a>
-			</li>
-            <li class="cd-item">
-				<a class="dark-text" href="item-3.html">
-					<div>
-						<h2>Recent trends in BioMedical Engg.</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur.</p>
-						<b>View More</b>
-					</div>
-				</a>
-			</li>
-            <li class="cd-item">
-				<a class="dark-text" href="item-3.html">
-					<div>
-						<h2>Pharmacy</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur.</p>
-						<b>View More</b>
-					</div>
-				</a>
-			</li>
-            
-            
-		</ul> <!-- .cd-gallery -->
-	</main> <!-- .cd-main -->
+                <a href="item-1.html">
+                    <div>
+                        <h2>Swaranjali</h2>
+                        <p>Intra college singing competition</p>
+                        <b>View More</b>
+                    </div>
+                </a>
+            </li>
 
-	<div class="cd-folding-panel">
-		
-		<div class="fold-left"></div> <!-- this is the left fold -->
-		
-		<div class="fold-right"></div> <!-- this is the right fold -->
-		
-		<div class="cd-fold-content">
-			<!-- content will be loaded using javascript -->
-		</div>
+            <li class="cd-item">
+                <a class="dark-text" href="item-1.html">
+                    <div>
+                        <h2>Dwand</h2>
+                        <p>Tech|Fun|Cult|Comp</p>
+                        <b>View More</b>
+                    </div>
+                </a>
+            </li>
 
-		<a class="cd-close" href="#0"></a>
-	</div> <!-- .cd-folding-panel -->
+            <li class="cd-item">
+                <a href="item-1.html">
+                    <div>
+                        <h2>Halla Bol</h2>
+                        <p>Nukkad natak|Flash Mob|Stage Play</p>
+                        <b>View More</b>
+                    </div>
+                </a>
+            </li>
 
-<script src="js/jquery-2.1.1.js"></script>
-<script src="js/main.js"></script> <!-- Resource jQuery -->
+            <li class="cd-item">
+                <a class="dark-text" href="item-1.html">
+                    <div>
+                        <h2>Retro Fitting</h2>
+                        <p>Tech|Fun|Cult|Comp</p>
+                        <b>View More</b>
+                    </div>
+                </a>
+            </li>
+            <li class="cd-item">
+                <a class="dark-text" href="item-1.html">
+                    <div>
+                        <h2>Smart Ideas Presentation</h2>
+                        <p>Tech|Fun|Cult|Comp</p>
+                        <b>View More</b>
+                    </div>
+                </a>
+            </li>
+            <li class="cd-item">
+                <a class="dark-text" href="item-1.html">
+                    <div>
+                        <h2>Circuit Hunt</h2>
+                        <p>Circuit Jigsaw Puzzels</p>
+                        <b>View More</b>
+                    </div>
+                </a>
+            </li>
+
+            <li class="cd-item">
+                <a class="dark-text" href="item-1.html">
+                    <div>
+                        <h2>Scam Corporate Commotion</h2>
+                        <p>Stock Marketing and trading</p>
+                        <b>View More</b>
+                    </div>
+                </a>
+            </li>
+
+            <li class="cd-item">
+                <a class="dark-text" href="item-1.html">
+                    <div>
+                        <h2>Tri-tech Tonic</h2>
+                        <p>Mind your Code!</p>
+                        <b>View More</b>
+                    </div>
+                </a>
+            </li>
+
+            <li class="cd-item">
+                <a class="dark-text" href="item-1.html">
+                    <div>
+                        <h2>Saarthi</h2>
+                        <p>Tech|Fun|Cult|Comp</p>
+                        <b>View More</b>
+                    </div>
+                </a>
+            </li>
+
+            <li class="cd-item">
+                <a class="dark-text" href="item-1.html">
+                    <div>
+                        <h2>Enigma</h2>
+                        <p>Tech|Fun|Cult|Comp</p>
+                        <b>View More</b>
+                    </div>
+                </a>
+            </li>
+            <li class="cd-item">
+                <a class="dark-text" href="item-1.html">
+                    <div>
+                        <h2>Formula,ATV,Aircrafts Demo</h2>
+                        <p>Tech|Fun|Cult|Comp</p>
+                        <b>View More</b>
+                    </div>
+                </a>
+            </li>
+            <li class="cd-item">
+                <a class="dark-text" href="item-1.html">
+                    <div>
+                        <h2>CAD War</h2>
+                        <p>Tech|Fun|Cult|Comp</p>
+                        <b>View More</b>
+                    </div>
+                </a>
+            </li>
+            <li class="cd-item">
+                <a class="dark-text" href="item-1.html">
+                    <div>
+                        <h2>Archery|Hurdles|Sack Race</h2>
+                        <p>Tech|Fun|Cult|Comp</p>
+                        <b>View More</b>
+                    </div>
+                </a>
+            </li>
+            <li class="cd-item">
+                <a class="dark-text" href="item-1.html">
+                    <div>
+                        <h2>Volt-Edge</h2>
+                        <p>Tech|Fun|Cult|Comp</p>
+                        <b>View More</b>
+                    </div>
+                </a>
+            </li>
+            <li class="cd-item">
+                <a class="dark-text" href="item-1.html">
+                    <div>
+                        <h2>Coding Shoot</h2>
+                        <p>Tech|Fun|Cult|Comp</p>
+                        <b>View More</b>
+                    </div>
+                </a>
+            </li>
+            <li class="cd-item">
+                <a class="dark-text" href="item-1.html">
+                    <div>
+                        <h2>Beyond the walls</h2>
+                        <p>Tech|Fun|Cult|Comp</p>
+                        <b>View More</b>
+                    </div>
+                </a>
+            </li>
+            <li class="cd-item">
+                <a class="dark-text" href="item-1.html">
+                    <div>
+                        <h2>Code Venture</h2>
+                        <p>Tech|Fun|Cult|Comp</p>
+                        <b>View More</b>
+                    </div>
+                </a>
+            </li>
+            <li class="cd-item">
+                <a class="dark-text" href="item-1.html">
+                    <div>
+                        <h2>GS Ki Vines</h2>
+                        <p>Tech|Fun|Cult|Comp</p>
+                        <b>View More</b>
+                    </div>
+                </a>
+            </li>
+            <li class="cd-item">
+                <a class="dark-text" href="item-1.html">
+                    <div>
+                        <h2>Junkyard 2.0</h2>
+                        <p>Tech|Fun|Cult|Comp</p>
+                        <b>View More</b>
+                    </div>
+                </a>
+            </li>
+            <li class="cd-item">
+                <a class="dark-text" href="item-1.html">
+                    <div>
+                        <h2>Fox Hunter</h2>
+                        <p>Tech|Fun|Cult|Comp</p>
+                        <b>View More</b>
+                    </div>
+                </a>
+            </li>
+            <li class="cd-item">
+                <a class="dark-text" href="item-1.html">
+                    <div>
+                        <h2>Beat My Car</h2>
+                        <p>Tech|Fun|Cult|Comp</p>
+                        <b>View More</b>
+                    </div>
+                </a>
+            </li>
+            <li class="cd-item">
+                <a class="dark-text" href="item-1.html">
+                    <div>
+                        <h2>Laser Tag</h2>
+                        <p>Tech|Fun|Cult|Comp</p>
+                        <b>View More</b>
+                    </div>
+                </a>
+            </li>
+            <li class="cd-item">
+                <a class="dark-text" href="item-1.html">
+                    <div>
+                        <h2>LAN Gaming NFS</h2>
+                        <p>Tech|Fun|Cult|Comp</p>
+                        <b>View More</b>
+                    </div>
+                </a>
+            </li>
+
+            <li class="cd-item">
+                <a class="dark-text" href="item-1.html">
+                    <div>
+                        <h2>Maniqueue</h2>
+                        <p>Tech|Fun|Cult|Comp</p>
+                        <b>View More</b>
+                    </div>
+                </a>
+            </li>
+            <li class="cd-item">
+                <a class="dark-text" href="item-1.html">
+                    <div>
+                        <h2>Mech Nova</h2>
+                        <p>Tech|Fun|Cult|Comp</p>
+                        <b>View More</b>
+                    </div>
+                </a>
+            </li>
+            <li class="cd-item">
+                <a class="dark-text" href="item-1.html">
+                    <div>
+                        <h2>Quiz Warfare</h2>
+                        <p>Tech|Fun|Cult|Comp</p>
+                        <b>View More</b>
+                    </div>
+                </a>
+            </li>
+            <li class="cd-item">
+                <a class="dark-text" href="item-1.html">
+                    <div>
+                        <h2>Fun Games</h2>
+                        <p>Tech|Fun|Cult|Comp</p>
+                        <b>View More</b>
+                    </div>
+                </a>
+            </li>
+            <li class="cd-item">
+                <a class="dark-text" href="item-1.html">
+                    <div>
+                        <h2>Line Follower</h2>
+                        <p>Tech|Fun|Cult|Comp</p>
+                        <b>View More</b>
+                    </div>
+                </a>
+            </li>
+            <li class="cd-item">
+                <a class="dark-text" href="item-1.html">
+                    <div>
+                        <h2>Robo Race</h2>
+                        <p>Tech|Fun|Cult|Comp</p>
+                        <b>View More</b>
+                    </div>
+                </a>
+            </li>
+            <li class="cd-item">
+                <a class="dark-text" href="item-1.html">
+                    <div>
+                        <h2>Grabber</h2>
+                        <p>Tech|Fun|Cult|Comp</p>
+                        <b>View More</b>
+                    </div>
+                </a>
+            </li>
+            <li class="cd-item">
+                <a class="dark-text" href="item-1.html">
+                    <div>
+                        <h2>SRC Exhibition</h2>
+                        <p>Tech|Fun|Cult|Comp</p>
+                        <b>View More</b>
+                    </div>
+                </a>
+            </li>
+            <li class="cd-item">
+                <a class="dark-text" href="item-1.html">
+                    <div>
+                        <h2>Circuitrix</h2>
+                        <p>Tech|Fun|Cult|Comp</p>
+                        <b>View More</b>
+                    </div>
+                </a>
+            </li>
+            <li class="cd-item">
+                <a class="dark-text" href="item-1.html">
+                    <div>
+                        <h2>Lakshya</h2>
+                        <p>Tech|Fun|Cult|Comp</p>
+                        <b>View More</b>
+                    </div>
+                </a>
+            </li>
+            <li class="cd-item">
+                <a class="dark-text" href="item-1.html">
+                    <div>
+                        <h2>RanBhoomi</h2>
+                        <p>Tech|Fun|Cult|Comp</p>
+                        <b>View More</b>
+                    </div>
+                </a>
+            </li>
+            <li class="cd-item">
+                <a class="dark-text" href="item-1.html">
+                    <div>
+                        <h2>Shaam-e-Watan</h2>
+                        <p>Tech|Fun|Cult|Comp</p>
+                        <b>View More</b>
+                    </div>
+                </a>
+            </li>
+
+            <li class="cd-item">
+                <a class="dark-text" href="item-1.html">
+                    <div>
+                        <h2>Drama|Flash Mob</h2>
+                        <p>Tech|Fun|Cult|Comp</p>
+                        <b>View More</b>
+                    </div>
+                </a>
+            </li>
+            <li class="cd-item">
+                <a class="dark-text" href="item-1.html">
+                    <div>
+                        <h2>MR. & MS. AAYAAM </h2>
+                        <p>Tech|Fun|Cult|Comp</p>
+                        <b>View More</b>
+                    </div>
+                </a>
+            </li>
+            <li class="cd-item">
+                <a class="dark-text" href="item-1.html">
+                    <div>
+                        <h2>SNAPSTER:SHOOT THE CAMPUS </h2>
+                        <p>Tech|Fun|Cult|Comp</p>
+                        <b>View More</b>
+                    </div>
+                </a>
+            </li>
+            <li class="cd-item">
+                <a class="dark-text" href="item-1.html">
+                    <div>
+                        <h2>Art-A-Holic</h2>
+                        <p>Tech|Fun|Cult|Comp</p>
+                        <b>View More</b>
+                    </div>
+                </a>
+            </li>
+            <li class="cd-item">
+                <a class="dark-text" href="item-1.html">
+                    <div>
+                        <h2>Do the Doodle</h2>
+                        <p>Tech|Fun|Cult|Comp</p>
+                        <b>View More</b>
+                    </div>
+                </a>
+            </li>
+            <li class="cd-item">
+                <a class="dark-text" href="item-1.html">
+                    <div>
+                        <h2>Display of research works</h2>
+                        <p>Tech|Fun|Cult|Comp</p>
+                        <b>View More</b>
+                    </div>
+                </a>
+            </li>
+            <li class="cd-item">
+                <a class="dark-text" href="item-1.html">
+                    <div>
+                        <h2>Models of product concept</h2>
+                        <p>Tech|Fun|Cult|Comp</p>
+                        <b>View More</b>
+                    </div>
+                </a>
+            </li>
+            <li class="cd-item">
+                <a class="dark-text" href="item-1.html">
+                    <div>
+                        <h2>BID Mastro Management Game</h2>
+                        <p>Tech|Fun|Cult|Comp</p>
+                        <b>View More</b>
+                    </div>
+                </a>
+            </li>
+
+            <li class="cd-item">
+                <a class="dark-text" href="item-1.html">
+                    <div>
+                        <h2>CNC Programming Competition</h2>
+                        <p>Tech|Fun|Cult|Comp</p>
+                        <b>View More</b>
+                    </div>
+                </a>
+            </li>
+
+            <li class="cd-item">
+                <a class="dark-text" href="item-1.html">
+                    <div>
+                        <h2>Product Design G.K. Competition</h2>
+                        <p>Tech|Fun|Cult|Comp</p>
+                        <b>View More</b>
+                    </div>
+                </a>
+            </li>
+
+            <li class="cd-item">
+                <a class="dark-text" href="item-1.html">
+                    <div>
+                        <h2>Drug & Disease Counselling</h2>
+                        <p>Tech|Fun|Cult|Comp</p>
+                        <b>View More</b>
+                    </div>
+                </a>
+            </li>
+
+            <li class="cd-item">
+                <a class="dark-text" href="item-1.html">
+                    <div>
+                        <h2>Business Plan Competition</h2>
+                        <p>Tech|Fun|Cult|Comp</p>
+                        <b>View More</b>
+                    </div>
+                </a>
+            </li>
+            <li class="cd-item">
+                <a class="dark-text" href="item-1.html">
+                    <div>
+                        <h2>Recent trends in BioMedical Engg.</h2>
+                        <p>Tech|Fun|Cult|Comp</p>
+                        <b>View More</b>
+                    </div>
+                </a>
+            </li>
+            <li class="cd-item">
+                <a class="dark-text" href="item-1.html">
+                    <div>
+                        <h2>Pharmacy</h2>
+                        <p>Tech|Fun|Cult|Comp</p>
+                        <b>View More</b>
+                    </div>
+                </a>
+            </li>
+
+
+        </ul>
+
+        <!-- .cd-gallery -->
+    </main>
+    <!-- .cd-main -->
+
+    <div class="cd-folding-panel">
+
+        <div class="fold-left"></div>
+        <!-- this is the left fold -->
+
+        <div class="fold-right"></div>
+        <!-- this is the right fold -->
+
+        <div class="cd-fold-content" style="padding:0px; overflow-x: hidden ">
+            <!-- content will be loaded using javascript -->
+
+            <!--COTENT START-->
+
+            <!--CONTENT END-->
+
+        </div>
+
+        <a class="cd-close" href="#0"></a>
+    </div>
+    <!-- .cd-folding-panel -->
+
+    <script src="js/jquery-2.1.1.js"></script>
+    <script src="js/main.js"></script>
+    <script src="event-details/min/plugin-min.js"></script>
+    <script src="event-details/min/custom-min.js"></script>
+    <!-- Resource jQuery -->
 </body>
+
 </html>
