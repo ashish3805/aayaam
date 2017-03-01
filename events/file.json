@@ -1,0 +1,28 @@
+{
+    "Form responses 1": [
+        {
+            "eventName": "asd",
+            "tags": "asd",
+            "clubdept": "asd",
+            "description": "asd",
+            "nameOfContactPerson": "asd",
+            "contactMobile": "asd",
+            "email": "asd",
+            "onlineRegistrationDetails": "asd",
+            "websiteOfTheEvent": "asd",
+            "posterUrl": "asd"
+        },
+        {
+            "eventName": "asd",
+            "tags": "asd",
+            "clubdept": "asd",
+            "description": "asd",
+            "nameOfContactPerson": "asd",
+            "contactMobile": "asd",
+            "email": "asd",
+            "onlineRegistrationDetails": "asd",
+            "websiteOfTheEvent": "asd",
+            "posterUrl": "asd"
+        }
+    ]
+}
