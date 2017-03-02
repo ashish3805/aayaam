@@ -127,7 +127,7 @@
     </div>
     <div id="home">
         <div id="large-header" class="large-header">
-            <div class="college-logo"></div>
+            
             <canvas id="demo-canvas"></canvas>
             <h4 class="main-title">
                 <div class="grid__item animated pulse infinite" data-wow-duration=".3" data-wow-delay=".5s">
@@ -706,9 +706,9 @@
                 success: function(data){
                     console.log(data);
                     if(data=="done")
-                     $.snackbar({content:"Query submitted successfully! ", timeout: 2000,id:"mysnack"});
+                     $.snackbar({content:"Query submitted successfully! ", timeout: 6000,id:"mysnack"});
                     else
-                     $.snackbar({content:"We are unable to register your query right now,please try again later.", timeout: 2000,id:"mysnack"});
+                     $.snackbar({content:"We are unable to register your query right now,please try again later.", timeout: 6000,id:"mysnack"});
                     $("#contact-form")[0].reset();
             }
             }); 
