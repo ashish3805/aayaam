@@ -696,12 +696,12 @@
             var message = $('#message').val();
                 
            
-           //console.log("name and password are "+name+" "+contact+" "+message);
+           console.log("name and password are "+name+" "+contact+" "+message);
                 
             
                 $.ajax({
                 type: "POST",
-                url: "https://aayaam.sgsits.ac.in/mail.php",
+                url: "mail.php",
                 dataType:"json",
                 data: {'name': name,'contact':contact,'message':message},
                 success: function(data){
