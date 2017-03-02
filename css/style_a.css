@@ -50,6 +50,26 @@ body {
     padding: 15px;
 }
 
+.college-logo {
+    position: absolute;
+    background: url("../img/sgsits.png") #FFF no-repeat;
+    background-size: contain;
+    top: 15px;
+    right: 15px;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 1px solid mintcream;
+    z-index: 1000;
+}
+
+@media (max-width: 900px) {
+    .college-logo {
+        width: 50px;
+        height: 50px;
+    }
+}
+
 
 /*pre-loader css start*/
 

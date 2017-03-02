@@ -1,8 +1,10 @@
 /* General link styles */
 
+@import url('https://fonts.googleapis.com/css?family=Alex+Brush|Dancing+Script|NTR');
 .link {
     outline: none;
     text-decoration: none;
+    font-weight: 500;
     position: relative;
     font-size: 4.5em;
     line-height: 1;
@@ -19,6 +21,12 @@
     font-size: 1.9em;
 }
 
+.main-title>.grid__item>sub {
+    font-size: 1em;
+    font-family: 'Dancing Script', cursive;
+}
+
+em;
 .hours,
 .minutes,
 .seconds,
@@ -30,9 +38,9 @@
 /* Mallki */
 
 .link--mallki {
-    font-weight: 200;
-    color: #81a689;
+    font-weight: 0;
     -webkit-transition: color 0.5s 0.25s;
+    font-family: 'Alex Brush', cursive;
     transition: color 0.5s 0.25s;
     overflow: hidden;
 }
@@ -117,6 +125,7 @@
     color: #81a689;
     font-weight: 400;
     text-transform: uppercase;
+    font-family: 'NTR', sans-serif;
     font-size: 10em;
     overflow: hidden;
     padding: 0 0 10px;
@@ -189,6 +198,6 @@
         font-size: 2.5em;
     }
     .link--yaku {
-        font-size: 2.5em;
+        font-size: 1em;
     }
 }
