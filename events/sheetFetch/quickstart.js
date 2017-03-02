@@ -110,9 +110,10 @@ function listMajors(auth) {
       console.log('The API returned an error: ' + err);
       return;
     }
+   // console.log(response.values);
 
     //var labels=response.values[0];
-    var labels=['timestamp','eventName','tags','clubdept','description','nameOfContactPerson','contactMobile','email','onlineRegistrationDetails','posterUrl','posterHostedUrl'];
+    var labels=['timestamp','eventName','tags','clubdept','description','nameOfContactPerson','contactMobile','email','onlineRegistrationDetails','website','posterUrl','posterHostedUrl'];
     //console.log(labels)
 
     var rows=response.values;
@@ -124,24 +125,14 @@ function listMajors(auth) {
         rowData[labels[j]]=rows[i][j];
       }
       data.push(rowData);
+      //console.log(rowData);
     }
 
     var dataForFile={
       "Formresponses1":data
     };
-    /*
-    var rows = response.values;
-    if (rows.length == 0) {
-      console.log('No data found.');
-    } else {
-      console.log('Name, Major:');
-      for (var i = 0; i < rows.length; i++) {
-        var row = rows[i];
-        // Print columns A and E, which correspond to indices 0 and 4.
-        console.log('%s, %s', row[0], row[4]);
-      }
-    }
-    */
+   
+    //console.log(dataForFile);
     console.log(JSON.stringify(dataForFile));
   });
 }
