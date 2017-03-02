@@ -52,7 +52,10 @@
     <link rel="stylesheet" type="text/css" href="css/default.css" />
     <script src="js/modernizr.custom.js"></script>
 
-
+     <!--Snackbar-->
+    <link href="css/snackbar/dist/snackbar.css" rel="stylesheet" type="text/css"/>
+    <link href="css/snackbar/themes-css/material.css" rel="stylesheet" type="text/css"/>
+    
     <!--srajan part of css-->
     <link href="css/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
     <style>
@@ -532,15 +535,15 @@
                             <form>
                                 <div class="row g-margin-b-30--xs g-margin-b-50--md">
                                     <div class="col-sm-6 g-margin-b-30--xs g-margin-b-0--md">
-                                        <input type="text" class="form-control s-form-v4__input g-padding-l-0--xs" placeholder="* Full Name">
+                                        <input type="text" class="form-control s-form-v4__input g-padding-l-0--xs" required placeholder="* Full Name">
                                     </div>
                                     <div class="col-sm-6">
-                                        <input type="text" class="form-control s-form-v4__input g-padding-l-0--xs" placeholder="* Phone Number">
+                                        <input type="number" class="form-control s-form-v4__input g-padding-l-0--xs" required placeholder="* Phone Number">
                                     </div>
                                 </div>
 
                                 <div class="g-margin-b-50--xs">
-                                    <textarea class="form-control s-form-v4__input g-padding-l-0--xs" rows="5" placeholder="* Your query?"></textarea>
+                                    <textarea class="form-control s-form-v4__input g-padding-l-0--xs" rows="5" required  placeholder="* Your query?"></textarea>
                                 </div>
                                 <div class="g-text-center--xs">
                                     <button type="submit" class="theme-color text-uppercase s-btn s-btn--md s-btn--primary-bg g-radius--50 g-padding-x-70--xs g-margin-b-20--xs">Submit</button>
@@ -574,9 +577,9 @@
 
                             </ul>
                             <ul class="list-inline g-ul-li-lr-15--xs">
-                                <li><a href="http://facebook.com/aayaam.sgsits"><i class="g-font-size-20--xs g-color--white-opacity ti-facebook"></i></a></li>
+                                <li><a href="https://facebook.com/aayaam.sgsits"><i class="g-font-size-20--xs g-color--white-opacity ti-facebook"></i></a></li>
                                 <li><a href="https://twitter.com/aayaamsgsits"><i class="g-font-size-20--xs g-color--white-opacity ti-twitter"></i></a></li>
-                                <li><a href="http://instagram.com/aayaam2k17"><i class="g-font-size-20--xs g-color--white-opacity ti-instagram"></i></a></li>
+                                <li><a href="https://instagram.com/aayaam2k17"><i class="g-font-size-20--xs g-color--white-opacity ti-instagram"></i></a></li>
                             </ul>
                             <i class="g-font-size-150--xs g-color--white-opacity-lightest ti-comments" style="position: absolute; bottom: -1.25rem; right: -1.25rem;"></i>
                         </div>
@@ -635,7 +638,7 @@
                 </div>
                 <!--logo commented -->
                 <div class="col-xs-6 col-xs-offset-6 g-text-right--xs">
-                    <p class="g-font-size-14--xs g-margin-b-0--xs g-color--white-opacity-light"> &copy; <a href="http://aayaam.sgsits.ac.in/">Aayaam SGSITS</a></p>
+                    <p class="g-font-size-14--xs g-margin-b-0--xs g-color--white-opacity-light"> &copy; <a href="https://aayaam.sgsits.ac.in/">Aayaam SGSITS</a></p>
                 </div>
             </div>
         </div>
@@ -680,7 +683,39 @@
     <script type="text/javascript" src="js/components/parallax.min.js"></script>
     <script type="text/javascript" src="js/components/google-map2.js"></script>
     <script type="text/javascript" src="js/components/wow.min.js"></script>
-
+    <!--Snackbar JS-->
+   <script src="css/snackbar/dist/snackbar.min.js" type="text/javascript"></script>
+    <script>
+        
+        $(document).ready(function() {
+            
+            $("#contact-form").on('submit',function(e) {
+            e.preventDefault();
+            var name = $('#name').val();
+            var contact = $('#contact').val();
+            var message = $('#message').val();
+                
+           
+           //console.log("name and password are "+name+" "+contact+" "+message);
+                
+            
+                $.ajax({
+                type: "POST",
+                url: "mail.php",
+                data: {name: name,contact:contact,message:message},
+                success: function(data){
+                    console.log(data);
+                    if(data=="done")
+                     $.snackbar({content:"Query submitted successfully! ", timeout: 2000,id:"mysnack"});
+                    else
+                     $.snackbar({content:"We are unable to register your query right now,please try again later.", timeout: 2000,id:"mysnack"});
+                    $("#contact-form")[0].reset();
+            }
+            }); 
+            
+            });
+            });
+    </script>
     <!--srajan added events start-->
     <script src="css/events/js/main.js"></script>
     <script src="css/events/js/jquery.mobile.custom.min.js"></script>
