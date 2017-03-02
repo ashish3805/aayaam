@@ -1,5 +1,6 @@
 {
-    "Formresponses1": [{
+    "Form responses 1": [
+        {
             "timestamp": "2017-03-01T13:53:17.202Z",
             "eventName": "JUNKYARD 2.0",
             "tags": "Tech, Fun",
@@ -41,7 +42,7 @@
         },
         {
             "timestamp": "2017-03-01T16:29:31.497Z",
-            "eventName": "LAN Gaming",
+            "eventName": "Flick Shot",
             "tags": "Tech, Fun, Comp",
             "clubdept": "CodeFoster ",
             "description": "COUNTER STRIKE :The evergreen passion of any gamer. Come and enjoy uninterrupted gaming session and win exciting prizes.",
@@ -90,6 +91,85 @@
             "onlineRegistrationDetails": "https://docs.google.com/forms/d/e/1FAIpQLSdO90bPzfAWOjVSK0mkoVXbnq7y7zY2AXr52r87PhfrCUzAYg/viewform",
             "posterUrl": "https://drive.google.com/drive/folders/0B_85oA-zpU_YTUZQV0pDZ1FVQWs",
             "posterHostedUrl": "http://imgh.us/circuithuntposter.jpg"
+        },
+        {
+            "timestamp": "2017-03-01T21:08:23.392Z",
+            "eventName": "LAKSHYA",
+            "tags": "Fun, Comp",
+            "clubdept": "NCC GROUP SGSITS",
+            "description": "A professional shooting competition!!!!",
+            "nameOfContactPerson": "Vivek Brahmane",
+            "contactMobile": 7725853334,
+            "email": "brahmanevivek@gmail.com",
+            "onlineRegistrationDetails": "tinyurl.com/nccsgsits",
+            "posterUrl": "https://drive.google.com/open?id=0B9Gx4Io5pFPAR20wS0QwU3BwZGs",
+            "posterHostedUrl": "http://imgh.us/LAKSHYA.jpg"
+        },
+        {
+            "timestamp": "2017-03-01T21:27:18.899Z",
+            "eventName": "RAN-BHOOMI",
+            "tags": "Fun, Comp",
+            "clubdept": "NCC GROUP SGSITS",
+            "description": "A paintball competition with real war field experience!!!",
+            "nameOfContactPerson": "Chandra Prakash Singh Sengar",
+            "contactMobile": 9630639128,
+            "email": "30cpss@gmail.com",
+            "onlineRegistrationDetails": "tinyurl.com/nccsgsits",
+            "posterUrl": "https://drive.google.com/open?id=0B9Gx4Io5pFPAYk9TemVLY09GdXM",
+            "posterHostedUrl": "http://imgh.us/aanncc.jpg"
+        },
+        {
+            "timestamp": "2017-03-02T04:40:48.759Z",
+            "eventName": "ENIGMA",
+            "tags": "Tech, Comp",
+            "clubdept": "SAE",
+            "description": "Come up with your innovative ideas to extinguish the candle flame using your own contraption.There will be demonstration of Baja vehicle and exhibition of Yan RC aircrafts ,models etc.",
+            "nameOfContactPerson": "Shivansh chauhan",
+            "contactMobile": 7773871830,
+            "email": "shivanshchauhan181995@gmail.com",
+            "onlineRegistrationDetails": "https://goo.gl/876wyW",
+            "websiteOfTheEvent": "https://sites.google.com/view/saecollegiatee/home",
+            "posterUrl": "https://drive.google.com/open?id=0B3RoZ0nWf7pDTkgwbVJJN2szMFk",
+            "posterHostedUrl": "http://imgh.us/111nalaayammail.jpg"
+        },
+        {
+            "timestamp": "2017-03-02T07:10:57.513Z",
+            "eventName": "SANJEEVANI",
+            "tags": "Fun",
+            "clubdept": "UPKAAR ",
+            "description": "we are organizing General Health Check-up in which Eye, Dental, Hair & skin check-ups, and Medical Counselling, will be included. Different types of games for entertainment will also be conducted.",
+            "nameOfContactPerson": "Bibhuti Bhusan ",
+            "contactMobile": 9523547120,
+            "email": "UpkaarSGSITS2010@gmail.com",
+            "onlineRegistrationDetails": "fb.com/upkaarblood",
+            "posterUrl": "https://drive.google.com/open?id=0B2_RdM-fNmeTRlItaE5fUloyNlU",
+            "posterHostedUrl": "http://imgh.us/upkaar_landscape.jpg"
+        },
+        {
+            "timestamp": "2017-03-02T08:13:21.321Z",
+            "eventName": "Start-up Slingshot ",
+            "tags": "Tech, Fun, Comp",
+            "clubdept": "Daksh_MBA",
+            "description": "An opportunistic platform to present unique business ideas",
+            "nameOfContactPerson": "Neha bhumar",
+            "contactMobile": 8839094940,
+            "email": "daksh.doms.sgsits@gmail.com",
+            "onlineRegistrationDetails": "Desk registration ",
+            "posterUrl": "https://drive.google.com/file/d/0B6nSi5OyvIfsX2p5eVlYRFlTRmM/view?usp=drivesdk",
+            "posterHostedUrl": "https://drive.google.com/file/d/0B6nSi5OyvIfseWZ6d0kxdldSTFE/view?usp=drivesdk"
+        },
+        {
+            "timestamp": "2017-03-02T09:24:11.139Z",
+            "eventName": "Snapster'2k17 ",
+            "tags": "Comp",
+            "clubdept": "Club Pratibimb ",
+            "description": "It is a photography event and this event is open for participants of all age groups. Participants will click photographs in the college campus only during the 2 days of Aayaam(10-11 March 2017) and they are required to submit the softcopies of their entries to club Pratibimb. Entries can be 1-3 in number. Prizes will be given to Top 3 photographers.",
+            "nameOfContactPerson": "Shubham Angural ",
+            "contactMobile": 9425066865,
+            "email": "clubpratibimb.sgsits@gmail.com ",
+            "websiteOfTheEvent": "https://m.facebook.com/pratibimb.sgsits/",
+            "posterUrl": "https://drive.google.com/file/d/0B1XmhxzqLcQpcnB3Z3FweGRxazQ/view?usp=drivesdk",
+            "posterHostedUrl": "http://imgh.us/poster_snap.jpg"
         }
     ]
 }
