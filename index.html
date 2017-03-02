@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en" class="no-js">
 
 <head>
@@ -700,7 +701,7 @@
             
                 $.ajax({
                 type: "POST",
-                url: "https://aayaam.sgsits.ac.in/mail.php",
+                url: "mail.php",
                 data: {name: name,contact:contact,message:message},
                 success: function(data){
                     console.log(data);
