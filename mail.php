@@ -15,10 +15,9 @@ $header='From:aayaamsgsits@gmail.com' . "\r\n" .
 
 $send=mail($to,$subject,$message,$header);
 
-
 if($send)
-	echo 'done'.$message;
+	echo 'done';
 else
-	echo 'false'.$message;
+	echo 'false';
 
 ?>
