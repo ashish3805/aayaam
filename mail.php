@@ -12,7 +12,7 @@ $subject = 'Message From '.$name.' on aayaam.sgsits.ac.in';
 $header='From:aayaamsgsits@gmail.com' . "\r\n" .
    'Reply-To: no-reply@aayaam.sgsits.ac.in' . "\r\n" .
    'X-Mailer: PHP/' . phpversion();
-$message=$message."<br>".$contact;
+$message=$message."\n".$contact;
 $send=mail($to,$subject,$message,$header);
 
 if($send)
