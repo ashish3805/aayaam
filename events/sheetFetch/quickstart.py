@@ -95,11 +95,11 @@ def main():
             sec = u''.join(('<h1>',ename,'</h1><img src="',src,'" />        <div class="filter"></div>        </div>        <div id="intro" class="section scrollspy">            <div class="container">       <h4 class="promo-caption" style="text-align: center; font-weight: 800;font-weight: 1em;">',ttg,'</h4><br><br><div class="row"><div class="col s12 m4 l4"><div class="center promo promo-example">                            <i class="material-icons">date_range</i>')).encode('utf-8').strip()
             head = "".join((head,sec)).encode('utf-8').strip()
             venue ="SGSITS"
-            #venue = row[12]
-            #date = row[13]
-            #time = row[14]
-            time = '<br><h5 class="promo-caption">10 March</h5> <p class="light center">Time 11:00 AM to 12:00 PM</p> </div></div>'
-            #time = "".join((time,'')).encode('utf-8').strip()
+            venue = row[12]
+            date = row[13]
+            time = row[14]
+            time = "".join(('<br><h5 class="promo-caption">',date,'</h5> <p class="light center">Time ',time,'</p> </div></div>'))
+            time = "".join((time,'')).encode('utf-8').strip()
             head = "".join((head,time)).encode('utf-8').strip()        
             contact = row[6]
             email = row[7]
