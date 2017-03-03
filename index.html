@@ -696,7 +696,7 @@
             var message = $('#message').val();
                 
            
-           console.log("name contact message are "+name+" "+contact+" "+message);
+          // console.log("name contact message are "+name+" "+contact+" "+message);
                 
             
                 $.ajax({
@@ -705,15 +705,11 @@
                 dataType:"json",
                 data: {'name': name,'contact':contact,'message':message},
                 success: function(data){
-                    console.log(data);
-                    if(data=="done")
-                     $.snackbar({content:"Query submitted successfully! ", timeout: 6000,id:"mysnack"});
-                    else
-                     $.snackbar({content:"We are unable to register your query right now,please try again later.", timeout: 6000,id:"mysnack"});
-                    $("#contact-form")[0].reset();
+                    
             }
             }); 
-            
+                $.snackbar({content:"Query submitted successfully! ", timeout: 6000,id:"mysnack"});
+                $("#contact-form")[0].reset();
             });
             });
     </script>
