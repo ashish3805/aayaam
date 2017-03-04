@@ -699,14 +699,17 @@
 
                     var cstatus=grecaptcha.getResponse();
                     if(cstatus==""){
+                     
+                        
                          $.snackbar({
                         content: "We hope you are a human.Would you please check the RECAPTCHA box before sending your query?",
                         timeout: 6000,
                         id: "mysnack"
                         });
-                         $.snackbar({
-                        content: "And if you are a bot,sorry you can't span us ;)",
-                        timeout: 2000,
+                       
+                        $.snackbar({
+                        content: "And if you are a bot,sorry you can't spam us ;)",
+                        timeout: 4000,
                         id: "mysnack2"
                         });
                         
