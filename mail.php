@@ -7,7 +7,7 @@ $message=$_POST['message'];
 date_default_timezone_set('Asia/Kolkata');
 $time = date('m/d/Y h:i:s a', time());
 
-echo $_POST['g-recaptcha-response']. " IS THE CAPTCHA RESPONSE ";
+//echo $_POST['g-recaptcha-response']. " IS THE CAPTCHA RESPONSE ";
 
 if(isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response'])){
         //your site secret key
