@@ -7,7 +7,7 @@ $message=$_POST['message'];
 date_default_timezone_set('Asia/Kolkata');
 $time = date('m/d/Y h:i:s a', time());
 
-if(isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response'])):
+if(isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response'])){
         //your site secret key
         $secret = '6LdUqxcUAAAAABu5at6UpmGbPSX1FBxhCmeWl1QZ';
         //get verify response data
@@ -27,5 +27,5 @@ if(isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response'
                 echo 'done';
             else
                 echo 'false';
-
+}
 ?>
