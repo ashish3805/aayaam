@@ -697,7 +697,7 @@
                     var message = $('#message').val();
 
 
-                    // console.log("name contact message are "+name+" "+contact+" "+message);
+                    console.log(grecaptcha.getResponse());
 
 
                     $.ajax({
@@ -707,10 +707,11 @@
                         data: {
                             'name': name,
                             'contact': contact,
-                            'message': message
+                            'message': message,
+                            'g-recaptcha-response':grecaptcha.getResponse();
                         },
                         success: function(data) {
-
+                                console.log(data);
                         }
                     });
                     $.snackbar({
