@@ -77,6 +77,11 @@
             .fa {
                 color: #2980b9;
             }
+           
+            @media screen and (max-height: 575px){
+            #rc-imageselect, .g-recaptcha {transform:scale(0.77);-webkit-transform:scale(0.77);transform-origin:0 0;-webkit-transform-origin:0 0;}
+            }
+
         </style>
         <script src='https://www.google.com/recaptcha/api.js'></script>
     </head>
@@ -545,8 +550,8 @@
                                     <div class="g-margin-b-50--xs">
                                         <textarea class="form-control s-form-v4__input g-padding-l-0--xs" rows="5" required id="message" placeholder="* Your query?"></textarea>
                                     </div>
-                                    <div class="g-recaptcha col-sm-6 col-xs-12" data-sitekey="6LdUqxcUAAAAAJNgvqemAicR7jYpxhqk50E1r_VT" style="transform:scale(0.77);-webkit-transform:scale(0.77);transform-origin:0 0;-webkit-transform-origin:0 0;"></div>
-                                    <div class="g-text-center--xs col-sm-6 col-xs-12">
+                                    <div class="g-recaptcha col-sm-6" data-theme="light" data-sitekey="6LdUqxcUAAAAAJNgvqemAicR7jYpxhqk50E1r_VT"></div>
+                                    <div class="g-text-center--xs col-sm-6">
                                         <button type="submit" class="theme-color text-uppercase s-btn s-btn--md s-btn--primary-bg g-radius--50 g-padding-x-70--xs g-margin-b-20--xs">Submit</button>
                                     </div>
                                     
